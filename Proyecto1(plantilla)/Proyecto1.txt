@@ -1,0 +1,16 @@
+Configurancion con Gulp, Sass, Font Awesome y BrowserSync
+
+Gulp
+sirve para escribir tareas como mover archivos, compilar, transformaciones etx
+https://gulpjs.com/
+
+BrowserSync
+servidor de tiempo real
+https://browsersync.io/
+
+Para las fuentes
+https://fontawesome.com/?from=io
+
+npm install bootstrap font-awesome jquery popper.js
+
+npm install gulp gulp-cli gulp-sass browser-sync -D

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Curso Bootstrap</title>
+
+    <!-- CDN CSS BOOTSTRAP -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- 
+      navbar para la navegacion
+      navbar-expand-md para el tamaño de la pantalla medio se expandira
+      navbar-light la navegacion tendra un color liger
+      bg-light el fondo de la navegacion sera ligero
+    -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <div class="container">
+        <!-- 
+            container da como espacios y separa de los margenes
+            navbar-brand le da al elmento como titulo
+          -->
+        <a class="navbar-brand" href="#">
+          App
+        </a>
+        <!-- 
+        navbar-collapse  esto hace como un menu desplegable y todo se coloca debajo
+        y es perfecto para los menu hamburguesa
+      -->
+        <div class="navbar-collapse">
+          <!-- 
+                navbar-nav decimos que es la navegacion
+                ml-auto con esto se coloca a la derecha
+             -->
+          <ul class="navbar-nav ml-auto">
+            <!-- 
+                    nav-item se colocan los elementos uno al lado del otro
+                    nav-link asi los enlaces se colocan como en un recuadro y estan perfectamente alineados
+                 -->
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Acerca</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Servicio</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <hr />
+
+    <!-- 
+      navbar para la navegacion
+      navbar-expand-md para el tamaño de la pantalla medio se expandira
+      navbar-light la navegacion tendra un color liger
+      bg-light el fondo de la navegacion sera ligero
+    -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <!-- 
+        container da como espacios y separa de los margenes
+        navbar-brand le da al elmento como titulo
+      -->
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          App
+        </a>
+        <!-- 
+          El button sera el encargado de mostrar el menu de hamburguesa 
+          
+          Con estas clases ya le indicamos que es un menu de hamburgues, y 
+          el icono que coloca es 3 rayas una debajo de la otra
+          navbar-toggler
+          data-toggle="collapse"
+          navbar-toggler-icon
+
+          Con data-target le indicamos que es lo que se va a ocultar, debemos
+          darle el nombre del id del elemento en cuestion. Ejemplo: #aaaaa
+
+        -->
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navegacion2"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- 
+              navbar-collapse  esto hace como un menu desplegable y todo se coloca debajo
+              y es perfecto para los menu hamburguesa
+
+              collapse con esto indicamos que al reducir la pantalla, los elementos se van a ocultar
+
+            -->
+        <div class="collapse navbar-collapse" id="navegacion2">
+          <!-- 
+                navbar-nav decimos que es la navegacion
+                ml-auto con esto se coloca a la derecha
+             -->
+          <ul class="navbar-nav ml-auto">
+            <!-- 
+                    nav-item se colocan los elementos uno al lado del otro
+                    nav-link asi los enlaces se colocan como en un recuadro y estan perfectamente alineados
+                 -->
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Acerca</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Servicio</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <hr />
+
+    <!-- 
+      navbar para la navegacion
+      navbar-expand-md para el tamaño de la pantalla medio se expandira
+      navbar-light la navegacion tendra un color liger
+      bg-light el fondo de la navegacion sera ligero
+    -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <!-- 
+          container da como espacios y separa de los margenes
+          navbar-brand le da al elmento como titulo
+        -->
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          App
+        </a>
+        <!-- 
+            El button sera el encargado de mostrar el menu de hamburguesa 
+            
+            Con estas clases ya le indicamos que es un menu de hamburgues, y 
+            el icono que coloca es 3 rayas una debajo de la otra
+            navbar-toggler
+            data-toggle="collapse"
+            navbar-toggler-icon
+  
+            Con data-target le indicamos que es lo que se va a ocultar, debemos
+            darle el nombre del id del elemento en cuestion. Ejemplo: #aaaaa
+  
+          -->
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navegacion3"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- 
+                navbar-collapse  esto hace como un menu desplegable y todo se coloca debajo
+                y es perfecto para los menu hamburguesa
+  
+                collapse con esto indicamos que al reducir la pantalla, los elementos se van a ocultar
+  
+              -->
+        <div class="collapse navbar-collapse" id="navegacion3">
+          <!-- 
+                  navbar-nav decimos que es la navegacion
+                  ml-auto con esto se coloca a la derecha
+               -->
+          <ul class="navbar-nav ml-auto">
+            <!-- 
+                      nav-item se colocan los elementos uno al lado del otro
+                      nav-link asi los enlaces se colocan como en un recuadro y estan perfectamente alineados
+                   -->
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Acerca</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Servicio</a></li>
+          </ul>
+          <!-- 
+            menu de busqueda 
+            form-inline en el menu de hamburguesa, el input no se expande sino se reduce mas bien.
+            form-control es para darle un estilo a los bordes
+            btn-outline-success indica que el color es en el borde y el relleno interior es blanco
+          -->
+          <form class="form-inline">
+            <input class="form-control" type="text" placeholder="Busqueda" />
+            <button type="button" class="btn btn-outline-success">
+              Buscar
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <hr />
+
+    <!-- 
+      navbar para la navegacion
+      navbar-expand-md para el tamaño de la pantalla medio se expandira
+      navbar-light la navegacion tendra un color liger
+      bg-light el fondo de la navegacion sera ligero
+    -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <!-- 
+            container da como espacios y separa de los margenes
+            navbar-brand le da al elmento como titulo
+          -->
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          App
+        </a>
+        <!-- 
+              El button sera el encargado de mostrar el menu de hamburguesa 
+              
+              Con estas clases ya le indicamos que es un menu de hamburgues, y 
+              el icono que coloca es 3 rayas una debajo de la otra
+              navbar-toggler
+              data-toggle="collapse"
+              navbar-toggler-icon
+    
+              Con data-target le indicamos que es lo que se va a ocultar, debemos
+              darle el nombre del id del elemento en cuestion. Ejemplo: #aaaaa
+    
+            -->
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navegacion4"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- 
+                  navbar-collapse  esto hace como un menu desplegable y todo se coloca debajo
+                  y es perfecto para los menu hamburguesa
+    
+                  collapse con esto indicamos que al reducir la pantalla, los elementos se van a ocultar
+    
+                -->
+        <div class="collapse navbar-collapse" id="navegacion4">
+          <!-- 
+                    navbar-nav decimos que es la navegacion
+                    ml-auto con esto se coloca a la derecha
+                 -->
+          <ul class="navbar-nav ml-auto">
+            <!-- 
+                        nav-item se colocan los elementos uno al lado del otro
+                        nav-link asi los enlaces se colocan como en un recuadro y estan perfectamente alineados
+                     -->
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Acerca</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Servicio</a></li>
+            <!-- 
+                Con esto agregamos items en un menu desplegable
+  
+            -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown">Item Padre</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">1</a>
+                <a class="dropdown-item" href="#">2</a>
+                <a class="dropdown-item" href="#">3</a>
+                <a class="dropdown-item" href="#">4</a>
+              </div>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <!-- JQUERY Y POPPER -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- JAVASCRIPT BOOTSTRAP -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

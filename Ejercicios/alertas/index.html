@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Curso Bootstrap</title>
+
+    <!-- CDN CSS BOOTSTRAP -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="alert alert-danger">
+      <h3>Titulo del Mensaje</h3>
+      <strong>Mensaje:</strong> Lorem
+      <a class="alert-link" href="#">Clic aqui</a>
+    </div>
+    <div class="alert alert-secondary">
+      <h3>Titulo del Mensaje</h3>
+      <strong>Mensaje:</strong> Lorem
+      <a class="alert-link" href="#">Clic aqui</a>
+    </div>
+    <div class="alert alert-success">
+      <h3>TitTitulo del Mensajeulo</h3>
+      <strong>Mensaje:</strong> Lorem
+      <a class="alert-link" href="#">Clic aqui</a>
+    </div>
+    <div class="alert alert-warning">
+      <h3>Titulo del Mensaje</h3>
+      <strong>Mensaje:</strong> Lorem
+      <a class="alert-link" href="#">Clic aqui</a>
+    </div>
+    <div class="alert alert-info">
+      <h3>Titulo del Mensaje</h3>
+      <strong>Mensaje:</strong> Lorem
+      <a class="alert-link" href="#">Clic aqui</a>
+    </div>
+    <div class="alert alert-light">
+      <h3>Titulo del Mensaje</h3>
+      <strong>Mensaje:</strong> Lorem
+      <a class="alert-link" href="#">Clic aqui</a>
+    </div>
+    <div class="alert alert-dark">
+      <h3>Titulo del Mensaje</h3>
+      <strong>Mensaje:</strong> Lorem
+      <a class="alert-link" href="#">Clic aqui</a>
+    </div>
+
+    <hr />
+
+    <div class="alert alert-dark">
+      <!-- 
+        close es para estilizarlo justo a la esquina 
+        data-dismiss="alert" para que desaparezca al darle click
+      -->
+      <button type="button" class="close" data-dismiss="alert">
+        <!-- Se coloca dentro de un span para que lo considere como una especie de texto -->
+        <span>&times;</span>
+      </button>
+      <strong>Mensaje:</strong> Lorem
+      <a class="alert-link" href="#">Clic aqui</a>
+    </div>
+
+    <hr />
+    <!-- 
+      alert-dismissible nos permite poder agregarle efecto
+      fade show le agregamos el efecto de desvanecimiento 
+    -->
+    <div class="alert alert-warning alert-dismissible fade show">
+      <!-- 
+        close es para estilizarlo justo a la esquina 
+        data-dismiss="alert" para que desaparezca al darle click
+      -->
+      <button type="button" class="close" data-dismiss="alert">
+        <!-- Se coloca dentro de un span para que lo considere como una especie de texto -->
+        <span>&times;</span>
+      </button>
+      <strong>Mensaje:</strong> Lorem
+      <a class="alert-link" href="#">Clic aqui</a>
+    </div>
+
+    <hr />
+
+    <!-- Barras progresivas -->
+
+    <div class="progress">
+      <div class="progress-bar" style="width: 5%"></div>
+    </div>
+    <br />
+    <div class="progress">
+      <div class="progress-bar bg-success" style="width: 10%"></div>
+    </div>
+    <br />
+    <div class="progress">
+      <div class="progress-bar bg-info" style="width: 15%"></div>
+    </div>
+    <br />
+    <div class="progress">
+      <div class="progress-bar bg-warning" style="width: 20%"></div>
+    </div>
+    <br />
+    <div class="progress">
+      <div class="progress-bar bg-danger" style="width: 25%"></div>
+    </div>
+    <br />
+    <div class="progress">
+      <div class="progress-bar bg-dark" style="width: 30%"></div>
+    </div>
+    <br />
+    <div class="progress">
+      <div class="progress-bar bg-dark progress-bar-striped" style="width: 35%"></div>
+    </div>
+    <br />
+    <div class="progress">
+        <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" style="width: 40%"></div>
+      </div>
+      <br />
+
+
+
+
+
+    <!-- JQUERY Y POPPER -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- JAVASCRIPT BOOTSTRAP -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
